@@ -1,0 +1,4 @@
+# Keep this repo clean
+*.log
+.DS_Store
+Thumbs.db
