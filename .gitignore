@@ -2,3 +2,11 @@
 *.log
 .DS_Store
 Thumbs.db
+
+# Node / MCP agents
+node_modules/
+**/node_modules/
+dist/
+build/
+.env
+.env.*

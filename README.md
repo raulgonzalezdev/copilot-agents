@@ -5,6 +5,7 @@ Este repositorio contiene tus agentes personalizados para Copilot y su instalaci
 - `agents/*.agent.md`
 - `instructions/*.instructions.md`
 - `prompts/*.prompt.md`
+- `mcp-agents/` (agentes MCP movidos desde DatqBoxWeb)
 - `scripts/install-on-windows.ps1` (instalador automático)
 - `INSTALL.md` (guía detallada)
 
