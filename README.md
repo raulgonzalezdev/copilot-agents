@@ -1,10 +1,26 @@
-# RecordGo Custom Agents Pack
+# RecordGo + DatqBox Custom Agents Pack
 
-Este paquete contiene tus agentes personalizados para Copilot:
+Este repositorio contiene tus agentes personalizados para Copilot y su instalación portable:
 
 - `agents/*.agent.md`
 - `instructions/*.instructions.md`
 - `prompts/*.prompt.md`
+- `scripts/install-on-windows.ps1` (instalador automático)
+- `INSTALL.md` (guía detallada)
+
+## Agentes DatqBox incluidos
+
+- `datqbox-super-planner.agent.md`
+- `datqbox-super-developer.agent.md`
+- `datqbox-super-qa.agent.md`
+- `datqbox-sqlserver.agent.md`
+
+Prompts background incluidos:
+
+- `datqbox-bg-plan.prompt.md`
+- `datqbox-bg-implement.prompt.md`
+- `datqbox-bg-test.prompt.md`
+- `datqbox-bg-sql.prompt.md`
 
 ## Publicarlo en tu GitHub personal
 
@@ -23,16 +39,32 @@ git push -u origin main
 
 ## Usarlo en otro equipo
 
-1. Clona tu repo personal.
-2. Copia estas carpetas al workspace destino (`.vscode/agents`, `.vscode/instructions`, `.vscode/prompts`) o al perfil global de VS Code.
-3. Asegura estas settings en el proyecto:
+Sigue la guía completa en `INSTALL.md`.
 
-```json
-{
-  "chat.agentFilesLocations": [".vscode/agents"],
-  "chat.instructionsFilesLocations": [".vscode/instructions"],
-  "chat.promptFilesLocations": [".vscode/prompts"]
-}
+Incluye export/import portable:
+
+- `scripts/export-agent-config.ps1` / `scripts/export-agent-config.sh`
+- `scripts/import-agent-config.ps1` / `scripts/import-agent-config.sh`
+- `scripts/diagnose-agent-config.ps1` / `scripts/diagnose-agent-config.sh`
+
+## OpenClaw (guía dedicada)
+
+Si vas a usar OpenClaw y te perdiste en el onboarding, sigue esta guía paso a paso:
+
+- `OPENCLAW.md`
+
+Chequeo rápido automático:
+
+```powershell
+Set-Location "<ruta>\\copilot-agents"
+.\scripts\openclaw-check.ps1
+```
+
+Instalación rápida (workspace + global + settings):
+
+```powershell
+Set-Location "<ruta>\copilot-agents"
+.\scripts\install-on-windows.ps1 -WorkspacePath "C:\ruta\tu\proyecto" -InstallScope both -ConfigureSettings
 ```
 
 ## Nota de seguridad
