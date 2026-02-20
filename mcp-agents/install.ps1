@@ -1,5 +1,5 @@
 # Script para instalar dependencias de todos los agentes MCP
-# Ejecutar desde: DatqBox Administrativo ADO SQL net/web/mcp-agents/
+# Ejecutar desde: D:\DatqBoxWorkspace\copilot-agents\mcp-agents\
 
 Write-Host "=== Instalando dependencias de agentes MCP ===" -ForegroundColor Cyan
 Write-Host ""

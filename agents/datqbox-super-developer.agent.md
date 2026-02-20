@@ -32,10 +32,10 @@ Eres el agente de implementación principal para DatqBox.
 
 ## Referencias obligatorias
 
-- `DatqBox Administrativo ADO SQL net/docs/wiki/README.md`
-- `DatqBox Administrativo ADO SQL net/docs/wiki/02-api.md`
-- `DatqBox Administrativo ADO SQL net/docs/wiki/03-frontend.md`
-- `DatqBox Administrativo ADO SQL net/docs/wiki/04-modular-frontend.md`
+- `DatqBoxWeb/docs/wiki/README.md`
+- `DatqBoxWeb/docs/wiki/02-api.md`
+- `DatqBoxWeb/docs/wiki/03-frontend.md`
+- `DatqBoxWeb/docs/wiki/04-modular-frontend.md`
 
 ## Modo background
 

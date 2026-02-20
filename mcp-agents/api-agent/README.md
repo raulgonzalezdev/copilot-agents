@@ -114,7 +114,7 @@ PORT=4000
 ## Instalación
 
 ```bash
-cd "DatqBox Administrativo ADO SQL net/web/mcp-agents/api-agent"
+cd "D:/DatqBoxWorkspace/copilot-agents/mcp-agents/api-agent"
 npm install
 ```
 

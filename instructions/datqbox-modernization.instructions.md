@@ -15,10 +15,10 @@ Trabajar en la modernización de DatqBox manteniendo trazabilidad con el legado 
   - `Spooler Fiscal*`
   - `Visor SQL Server`
 - Moderno:
-  - `DatqBox Administrativo ADO SQL net/src` (.NET)
-  - `DatqBox Administrativo ADO SQL net/web/api`
-  - `DatqBox Administrativo ADO SQL net/web/frontend`
-  - `DatqBox Administrativo ADO SQL net/web/modular-frontend`
+  - `DatqBoxWeb/src` (.NET)
+  - `DatqBoxWeb/web/api`
+  - `DatqBoxWeb/web/frontend`
+  - `DatqBoxWeb/web/modular-frontend`
 
 ## Reglas de trabajo
 

@@ -21,9 +21,9 @@ Asegurar que los cambios cumplen funcionalidad, estabilidad y trazabilidad con e
 
 ## Referencias obligatorias
 
-- `DatqBox Administrativo ADO SQL net/docs/wiki/README.md`
-- `DatqBox Administrativo ADO SQL net/docs/wiki/05-mapa-vb6-a-web.md`
-- `DatqBox Administrativo ADO SQL net/web/STATUS.md`
+- `DatqBoxWeb/docs/wiki/README.md`
+- `DatqBoxWeb/docs/wiki/05-mapa-vb6-a-web.md`
+- `DatqBoxWeb/web/STATUS.md`
 
 ## Checklist mínimo
 

@@ -94,7 +94,7 @@ Una vez instalado, puedes invocar al agente en el chat de GitHub Copilot:
 ## Instalación
 
 ```bash
-cd "DatqBox Administrativo ADO SQL net/web/mcp-agents/database-agent"
+cd "D:/DatqBoxWorkspace/copilot-agents/mcp-agents/database-agent"
 npm install
 ```
 

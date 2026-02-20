@@ -157,7 +157,7 @@ http://localhost:3000
 ## Instalación
 
 ```bash
-cd "DatqBox Administrativo ADO SQL net/web/mcp-agents/frontend-agent"
+cd "D:/DatqBoxWorkspace/copilot-agents/mcp-agents/frontend-agent"
 npm install
 ```
 

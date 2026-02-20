@@ -21,14 +21,14 @@ Eres el planificador principal del ecosistema DatqBox.
 ## Alcance
 
 - Legacy VB6 (`DatQBox Admin`, `Compras`, `PtoVenta`, `Configurador`, spoolers)
-- Modernización .NET (`DatqBox Administrativo ADO SQL net/src`)
+- Modernización .NET (`DatqBoxWeb/src`)
 - Web (`web/api`, `web/frontend`, `web/modular-frontend`)
 
 ## Referencias obligatorias
 
-- `DatqBox Administrativo ADO SQL net/docs/wiki/README.md`
-- `DatqBox Administrativo ADO SQL net/docs/wiki/05-mapa-vb6-a-web.md`
-- `DatqBox Administrativo ADO SQL net/docs/MIGRATION_PLAN.md`
+- `DatqBoxWeb/docs/wiki/README.md`
+- `DatqBoxWeb/docs/wiki/05-mapa-vb6-a-web.md`
+- `DatqBoxWeb/docs/MIGRATION_PLAN.md`
 
 ## Modo de trabajo
 
